@@ -2,16 +2,18 @@
 #include<string.h>
 int main()
 {
-    char ch[10000001];
-    scanf("%s",ch);
-    int var[26]={0};
-    int len=strlen(ch);
-    printf("%d",len);
-    for (int i = 0; i < len; i++)
+    char ch;
+    int count[26]={0};
+    while (scanf("%c",&ch) != EOF)
     {
-        var[ch[i]]++;
+        count[ch-'a']++;
     }
-    
-    
+    for (char i = 'a'; i <= 'z'; i++)
+    {
+        if (count[i-'a']>0)
+        {
+            printf("%c : %d\n",i,count[i-'a']);
+        }
+    }
 return 0;
 }

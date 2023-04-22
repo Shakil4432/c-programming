@@ -13,5 +13,6 @@ int main()
     {
        s[ar[i]]++;
     }
+    printf("%d",s);
 return 0;
 }
