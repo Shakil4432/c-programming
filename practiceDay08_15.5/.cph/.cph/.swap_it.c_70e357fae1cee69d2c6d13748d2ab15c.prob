@@ -1,0 +1,1 @@
+{"name":"Local: swap_it","url":"c:\\Users\\jhon\\Desktop\\Batch 3\\C programimg\\practiceDay08_15.5\\.cph\\swap_it.c","tests":[{"id":1683139436555,"input":"10 20","output":"20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jhon\\Desktop\\Batch 3\\C programimg\\practiceDay08_15.5\\.cph\\swap_it.c","group":"local","local":true}
