@@ -1,0 +1,1 @@
+{"name":"Local: char_to_ascii","url":"c:\\Users\\jhon\\Desktop\\Batch 3\\C programimg\\practiceDay07_14.5\\char_to_ascii.c","tests":[{"id":1683111447100,"input":"s","output":"97"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jhon\\Desktop\\Batch 3\\C programimg\\practiceDay07_14.5\\char_to_ascii.c","group":"local","local":true}

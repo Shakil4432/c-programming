@@ -14,15 +14,29 @@
 
 //     return 0;
 // }
+// #include <stdio.h>
+// void fun(char *str)
+// {
+//     str[0] = 'G';
+// }
+// int main()
+// {
+//     char str[6] = "hello";
+//     fun(str);
+//     printf("%s", str);
+//     return 0;
+// }
 #include <stdio.h>
-void fun(char *str)
+void m(int p, int q)
 {
-    str[0] = 'G';
+    int temp = p;
+    p = q;
+    q = temp;
+    printf("%d %d\n", p, q);
 }
-int main()
+void main()
 {
-    char str[6] = "hello";
-    fun(str);
-    printf("%s", str);
-    return 0;
+    int a = 6, b = 5;
+    m(a, b);
+    printf("%d %d\n", a, b);
 }
